@@ -104,13 +104,13 @@ Para cada solicitud recibida, el proceso debe generar un fichero llamado `grades
 #### NOTAS
 1. Este documento contiene:
 
-...* Una primera línea de cabecera formada por dos campos: el nombre del acto de evaluación, y un campo fijo "SCORE_GRADE_TYPE"
+	* Una primera línea de cabecera formada por dos campos: el nombre del acto de evaluación, y un campo fijo "SCORE_GRADE_TYPE"
 
-...* Una segunda línea con el contenido ""
+	* Una segunda línea con el contenido ""
 
-...* Una tercera línea con la cabecera (fija) de los datos
+	* Una tercera línea con la cabecera (fija) de los datos
 
-...* El resto de líneas constituyen calificaciones individuales a alumnos
+	* El resto de líneas constituyen calificaciones individuales a alumnos
 
 2. Las calificaciones en PADRINO se introducen en formato 'float' con un decimal (redondeo al número más próximo), y con el separador decimal ',' (coma).
 
