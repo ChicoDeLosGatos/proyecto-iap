@@ -71,7 +71,7 @@ La aplicación de Configuración de Grupos y Entregas permite generar un fichero
 El objetivo de este proceso es exportar notas individuales (no grupales) para que sean importadas por el programa PADRINO. Para ello, se le indicará a este proceso de integración qué acto de evaluación se desea exportar, y se generará un fichero grades.csv, siguiendo el formato PADRINO.
 Para empezar, se deberá atender a peticiones de generación de notas siguiendo los siguientes formatos:
 #### CSV
-`id-acto-evaluacion>`
+`<id-acto-evaluacion>`
 Ejemplo CSV Solicitud Generación Notas (generaPADRINO.IAP.2021.ACTO.E1.csv)
 ```
 IAP.2021.ACTO.E1
