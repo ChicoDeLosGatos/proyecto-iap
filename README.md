@@ -73,15 +73,15 @@ Para empezar, se deberá atender a peticiones de generación de notas siguiendo 
 #### CSV
 `id-acto-evaluacion>`
 Ejemplo CSV Solicitud Generación Notas (generaPADRINO.IAP.2021.ACTO.E1.csv)
-`IAP.2021.ACTO.E1`
+```IAP.2021.ACTO.E1```
 #### XML
 `<ActoEvaluacion>id-acto</ActoEvaluacion>`
 Ejemplo XML Solicitud Generación Notas (generaPADRINO.IAP.2021.ACTO.E1.xml)
-`<ActoEvaluacion>IAP.2021.ACTO.E1</ActoEvaluacion>`
+```<ActoEvaluacion>IAP.2021.ACTO.E1</ActoEvaluacion>```
 #### JSON
 `{"acto-evaluacion":<id-acto>}`
 Ejemplo JSON Solicitud Generación Notas (generaPADRINO.IAP.2021.ACTO.E1.json)
-`{"acto-evaluacion":"IAP.2021.ACTO.E1"}`
+```{"acto-evaluacion":"IAP.2021.ACTO.E1"}```
 Para cada solicitud recibida, el proceso debe generar un fichero llamado `grades.csv` con la siguiente estructura:
 ```
 	"<nombre-acto-evaluacion>";"SCORE_GRADE_TYPE"
