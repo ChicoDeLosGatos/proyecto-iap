@@ -1,6 +1,7 @@
 # Proyecto DCU-IAP
 
 ## Entregable 1: Módulo de integración
+![Esquema del módulo de integración](https://github.com/ChicoDeLosGatos/proyecto-iap/blob/main/Documentacion/esquema.PNG)
 El objetivo de este ejercicio es diseñar una solución haciendo uso de un
 middleware para la integración de aplicaciones que permita realizar la
 integración de datos entre los sistemas de PoliformaT, Aplicación de Configuración
