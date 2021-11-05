@@ -12,7 +12,7 @@ siguientes:
 - [ ] Importación de Grupos desde Aplicación de Grupos y Entregas a GGAE
 - [ ] Importación de Entregas desde Aplicación de Grupos y Entregas a GGAE
 - [ ] Exportación de Notas Individuales desde GGAE a PADRINO
-### Importación de Alumnos desde PoliformaT a GGAE
+### Importación de Alumnos desde PoliformaT a GGAE [HECHO]
 El objetivo de este proceso es introducir los alumnos disponibles en PoliformaT e importarlos (crearlos) en la BD de GGAE (tabla 'alumnos').
 La aplicación de PoliformaT permite generar un fichero con los alumnos disponibles siguiendo el siguiente formato (en CSV):
 ```
