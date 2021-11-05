@@ -50,7 +50,7 @@ La aplicación de Configuración de Grupos y Entregas permite generar un fichero
 ### Importación de Entregas desde Aplicación de Grupos y Entregas a GGAE
 El objetivo de este proceso es crear una entrega de un grupo para un acto de evaluación (y establecer una nota) en la BD de GGAE (tabla 'entregas').
 La aplicación de Configuración de Grupos y Entregas permite generar un fichero con las entregas de los grupos con el siguiente formato (en JSON):
-	```
+```
 	[
 		{
 			"grupo": <id>,
