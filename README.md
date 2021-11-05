@@ -72,18 +72,21 @@ El objetivo de este proceso es exportar notas individuales (no grupales) para qu
 Para empezar, se deberá atender a peticiones de generación de notas siguiendo los siguientes formatos:
 #### CSV
 `<id-acto-evaluacion>`
+
 Ejemplo CSV Solicitud Generación Notas (generaPADRINO.IAP.2021.ACTO.E1.csv)
 ```
 IAP.2021.ACTO.E1
 ```
 #### XML
 `<ActoEvaluacion>id-acto</ActoEvaluacion>`
+
 Ejemplo XML Solicitud Generación Notas (generaPADRINO.IAP.2021.ACTO.E1.xml)
 ```
 <ActoEvaluacion>IAP.2021.ACTO.E1</ActoEvaluacion>
 ```
 #### JSON
 `{"acto-evaluacion":<id-acto>}`
+
 Ejemplo JSON Solicitud Generación Notas (generaPADRINO.IAP.2021.ACTO.E1.json)
 ```
 {"acto-evaluacion":"IAP.2021.ACTO.E1"}
